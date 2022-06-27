@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul,dl,li{list-style: none;}
+a{
+text-decoration: none;
+color: #222;}
+a:hover{color: palevioletred;}
+
+/* common */
+.container{width: 1200px; margin: 0 auto;}
+.d-flex{display: flex;}
+.justify-content-between{justify-content: space-between;}
+.align-items-center{align-items: center;}
+
+.rel{position: relative;}
+.abs{position: absolute;}
+
+.text-center{text-align: center;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+
+/* 요소검사용 */
+.gray{background-color: gray !important;}
+
+.font26{font-size: 26px;}
+.font18{font-size: 18px;}
+.font16{font-size: 16px;}
+.font14{font-size: 14px;}
+
+.baseColor{color: #E8E1D9;}
+.baseColor2{color:#000 !important;}
+.exmColor{color: #047E43;}
+
+/* 시험용 */
+.h100{height: 100px;}
+.h200{height: 200px;}
+.h300{height: 300px;}
+
+/* 내꺼 */
+#hd{
+    position: relative;
+    z-index: 1000;
+}
+#hd h1{}
+#hd h1 > a{
+    width: 120px;
+    display: block;
+}
+#hd h1 > a >img{
+    width: 100%;
+}
+
+#gnb a{white-space: nowrap;}
+#gnb{}
+#gnb > li{}
+#gnb > li > a{}
+#gnb ul{
+    line-height: 2; /*단위 없으면 글자 사이즈로 움직임*/
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 0 20px;
+    top: 100%;
+    left: -15px;
+    right: 0;
+    height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+#gnb > li:hover > ul{
+    border-color: #222;
+    background-color: #fff;
+    height: 160px;
+    z-index: 122222;
+}
+#gnb ul > li{}
+#gnb ul > li > a{}
+
+#content{}
+#ft{}
+

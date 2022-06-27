@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 기능사 연습</title>
+    <!-- 폰트 > 표준 > 플러그인 > 내꺼 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 플러그인 > 내꺼 > 제이쿼리 core (무거움) > 제이쿼리 플러그인 > 내꺼 -->
+    <script src="js/jquery-2.2.4.min.js"></script>    
+    <script src="js/basic.js"></script>
+</head>
+<body>
+    <!-- 컨테이너형 -->
+    <div class="container">
+        <header id="hd" class="h100 d-flex justify-content-between align-items-center">
+            <!-- C형 -->
+            <!-- h1>a>img^^ul#gnb>li*4>a{대메뉴}+ul>li*5>a{소메뉴}
+            h1>a>img^^ul#gnb>li.rel*4>a{대메뉴}+ul.a>li*5>a{소메뉴} -->
+            <h1><a href="#"><img src="img/logo.svg" alt=""></a></h1>
+            <div id="gnb" class="d-flex">
+                <li class="rel">
+                    <a href="#" class="font26">대메뉴</a>
+                    <ul class="abs">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="rel">
+                    <a href="#" class="font26">대메뉴</a>
+                    <ul class="abs">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="rel">
+                    <a href="#" class="font26">대메뉴</a>
+                    <ul class="abs">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="rel">
+                    <a href="#" class="font26">대메뉴</a>
+                    <ul class="abs">
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                        <li><a href="#">소메뉴</a></li>
+                    </ul>
+                </li>
+            </div>
+        </header>
+        <section id="content"></section>
+        <footer id="ft"></footer>
+    </div>
+    <!-- 화면형 -->
+    <!-- header#hd>.container^section#content.container+footer#ft>.container -->
+    <!-- C형 -->
+    <!-- .container1000>header#hd200+section#content800>slide>footer#ft -->
+</body>
+</html>
